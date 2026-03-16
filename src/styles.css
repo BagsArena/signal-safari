@@ -1,0 +1,130 @@
+:root {
+  color-scheme: dark;
+  --bg: #081220;
+  --panel: rgba(13, 20, 39, 0.88);
+  --accent: #f97316;
+  --accent-2: #fb7185;
+  --text: #f7fafc;
+  --muted: #9ca3af;
+  --line: rgba(255, 255, 255, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background:
+    radial-gradient(circle at top, rgba(249, 115, 22, 0.24), transparent 28rem),
+    linear-gradient(160deg, #040814 0%, #0a1324 100%);
+  color: var(--text);
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 24px 72px;
+}
+
+.hero,
+.panel {
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  background: var(--panel);
+  backdrop-filter: blur(18px);
+}
+
+.hero {
+  padding: 32px;
+}
+
+.hero-grid,
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+.hero-grid {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.grid {
+  margin-top: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: var(--muted);
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: clamp(2.4rem, 6vw, 4.8rem);
+  margin-bottom: 16px;
+}
+
+.lede {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 56rem;
+}
+
+.stat {
+  padding: 16px 18px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.stat-label {
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 11px;
+}
+
+.stat-value {
+  font-size: 1.7rem;
+  margin-top: 10px;
+}
+
+.panel {
+  padding: 24px;
+}
+
+ul {
+  padding-left: 18px;
+  line-height: 1.8;
+}
+
+.roadmap-item {
+  padding: 16px 18px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.roadmap-meta {
+  color: var(--muted);
+  font-size: 0.82rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.footer {
+  margin-top: 24px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}

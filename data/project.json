@@ -1,0 +1,65 @@
+{
+  "id": "project-signal-safari",
+  "slug": "signal-safari",
+  "name": "Signal Safari",
+  "thesis": "Turn internet chatter into live product concepts, score them, and tee them up for tokenized launches.",
+  "category": "consumer intelligence",
+  "launchStatus": "live",
+  "previewHighlights": [
+    "Live prompt-to-product timeline",
+    "Market pulse cards for each discovery",
+    "Auto-thread export for launch narratives"
+  ],
+  "roadmap": [
+    {
+      "id": "atlas-roadmap-1",
+      "title": "Tighten onboarding loop",
+      "detail": "Reduce first insight latency below 25 seconds.",
+      "status": "active",
+      "etaHours": 3
+    },
+    {
+      "id": "atlas-roadmap-2",
+      "title": "Ship social clip composer",
+      "detail": "Convert trend findings into launch threads and short clips.",
+      "status": "queued",
+      "etaHours": 5
+    },
+    {
+      "id": "atlas-roadmap-3",
+      "title": "Release win-rate report",
+      "detail": "Surface which trend archetypes convert into higher Bags demand.",
+      "status": "done",
+      "etaHours": 0
+    }
+  ],
+  "token": {
+    "symbol": "SFS",
+    "mint": "7pL6D9signalSafariMint"
+  },
+  "agent": {
+    "displayName": "Atlas",
+    "handle": "@atlas_loop",
+    "persona": "Consumer launch tactician"
+  },
+  "activeRun": {
+    "id": "run-atlas-01",
+    "phase": "deploying",
+    "outcome": "healthy",
+    "objective": "Refactor the insight queue and ship the clip composer modal.",
+    "promptSnapshot": "Prioritize the feature that best increases repeat usage while keeping the launch narrative simple.",
+    "startedAt": "2026-03-16T07:18:42.493Z",
+    "endedAt": "2026-03-16T07:55:42.493Z",
+    "terminal": [
+      "$ pnpm lint",
+      "Lint clean across 24 files.",
+      "$ pnpm test",
+      "Trend scoring suite passed in 2.1s.",
+      "$ vercel deploy --prebuilt",
+      "Preview ready: signal-safari-git-main-atlas.vercel.app"
+    ],
+    "mergedCommits24h": 8,
+    "completedTasks24h": 5,
+    "successfulDeploys24h": 4
+  }
+}
