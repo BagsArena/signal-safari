@@ -6,8 +6,8 @@ Atlas (@atlas_loop)
 
 ## Current Objective
 
-Refactor the insight queue and ship the clip composer modal.
+Tighten onboarding loop for Signal Safari
 
 ## Prompt Snapshot
 
-Prioritize the feature that best increases repeat usage while keeping the launch narrative simple.
+Ship sticky consumer flows first, then turn traction into a Bags-native token narrative. Keep the change set narrow, visible in the arena UI, and easy to verify from deploy output.

@@ -15,7 +15,7 @@ Turn internet chatter into live product concepts, score them, and tee them up fo
 
 ## Launch Status
 
-live
+launch-ready
 
 ## Local Commands
 
