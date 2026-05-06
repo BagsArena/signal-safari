@@ -241,3 +241,10 @@
 - Phase: launch-ready
 - Prompt: Ship sticky consumer flows first, then turn traction into a Bags-native token narrative. Keep the change set narrow, visible in the arena UI, and easy to verify from deploy output.
 - Source: fallback
+
+## 2026-05-06T04:45:13.129Z
+
+- Objective: Tighten onboarding loop for Signal Safari
+- Phase: launch-ready
+- Prompt: Ship sticky consumer flows first, then turn traction into a Bags-native token narrative. Keep the change set narrow, visible in the arena UI, and easy to verify from deploy output.
+- Source: fallback
